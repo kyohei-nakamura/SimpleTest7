@@ -1,0 +1,12 @@
+<Context reloadable="false" crossContext="false">
+
+<Resource name="jdbc/tpcwDS"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="org.postgresql.Driver"
+        url="jdbc:postgresql://127.0.0.1:5432/testdb"
+        username="test" password="test"
+        maxTotal="100" maxIdle="100"
+        />
+
+</Context>
